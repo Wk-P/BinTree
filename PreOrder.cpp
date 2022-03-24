@@ -8,8 +8,8 @@ void PreOrderVisitTree(Tree T) {
 void PreOrderVisitTreeNode(TreeNode* TNode) {
 	if (TNode) {
 		cout << TNode->data << " ";
-		PreOrderVisitTreeNode(TNode->);
-		PreOrderVisitTreeNode(TNode->);
+		PreOrderVisitTreeNode(TNode->lchild);
+		PreOrderVisitTreeNode(TNode->rchild);
 	}
 	else {
 		cout << "NULL ";

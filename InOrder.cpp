@@ -1,6 +1,6 @@
 #include "InOrder.h"
 
-void InOrderTree(Tree T) {
+void InOrderVisitTree(Tree T) {
 	if (T) {
 		TreeNode* p = T;
 		InOrderVisitTreeNode(p);
